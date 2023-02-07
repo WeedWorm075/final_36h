@@ -1,28 +1,29 @@
- <?php 
-   if(isset($_SESSION['erreur'])){
-     $erreur = $this->session->erreur;
-        echo $erreur;
-   }
-   
-   
-?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-</head>
-<body>
-    <?php 
-        echo $message;
-    ?>
-    <form action="<?php echo site_url("welcome/verifierLogin"); ?>" method="post">
-        <input type="text" name="nom" placeholder="Nom">
-        <input type="text" name="mdp" placeholder="Mot de passe">
-        <input type="submit" value="Sign in">
-    </form>
-    <a href="<?php echo site_url("welcome/bonjour/Fiderana"); ?> " >Click here</a>
-</body>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../assets/login.css">
+    </head>
+    <body>
+        <div class="overlay">
+            <form action="888" method="">
+                <div class="con">
+                    <header class="head-form">
+                        <h2>Log In</h2>
+                        <p>Login here using your Email and password</p>
+                    </header>
+                    <br>
+                    <div class="field-set">
+                        <input class="form-input" id="txt-input" type="text" placeholder="@Email" name="email">
+                        <br>
+                        <input class="form-input" type="password" placeholder="password" id="txt-input" name="mdp">
+                        <br>
+                        <input class="log-in" type="submit" value="LOGIN"/>
+                    </div>
+                    <div class="other">
+                        <button class="btn submits sign-up"><a href="<?php echo site_url("welcome/index3"); ?>">Sign Up</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
 </html>
