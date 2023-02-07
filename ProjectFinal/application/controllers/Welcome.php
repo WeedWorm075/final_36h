@@ -83,4 +83,9 @@ class Welcome extends CI_Controller {
 			redirect(site_url('welcome'));
 		}
 	}
+
+	public function formLogin()
+	{
+		$this->load->view('Login');
+	}
 }

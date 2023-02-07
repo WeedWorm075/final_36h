@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/login.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
     </head>
     <body>
         <div class="overlay">
-            <form action="888" method="">
+            <form action="" method="">
                 <div class="con">
                     <header class="head-form">
                         <h2>Log In</h2>
@@ -20,7 +20,7 @@
                         <input class="log-in" type="submit" value="LOGIN"/>
                     </div>
                     <div class="other">
-                        <button class="btn submits sign-up"><a href="<?php echo site_url("welcome/index3"); ?>">Sign Up</a></button>
+                        <button class="btn submits sign-up"><a href="">Sign Up</a></button>
                     </div>
                 </div>
             </form>
