@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+        <link rel="stylesheet" type="text/css" href="../assets/login.css">
     </head>
     <body>
         <div class="overlay">
