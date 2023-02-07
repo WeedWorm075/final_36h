@@ -88,4 +88,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('Login');
 	}
+
+	public function formInscription()
+	{
+		$this->load->view('Inscription');
+	}	
 }

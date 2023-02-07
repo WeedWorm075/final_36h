@@ -20,7 +20,7 @@
                         <input class="log-in" type="submit" value="LOGIN"/>
                     </div>
                     <div class="other">
-                        <button class="btn submits sign-up"><a href="">Sign Up</a></button>
+                        <button class="btn submits sign-up"><a href="<?php echo site_url("welcome/formInscription"); ?>">Sign Up</a></button>
                     </div>
                 </div>
             </form>
