@@ -31,8 +31,8 @@ class Welcome extends CI_Controller {
 	}
 
 	public function accueil()		//fonction mandeha makany amin'ny accueil
-	{	$this->load->helper('url');
-		$this->load->library('session');
+	// {	$this->load->helper('url');
+	// 	$this->load->library('session');
 		//$this->load->view('welcome_message');
 		$this->load->view('Accueil');
 	}
